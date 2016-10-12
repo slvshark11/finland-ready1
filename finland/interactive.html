@@ -1,0 +1,122 @@
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Финляндия</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </style>
+ </head>
+<script>
+function check1(){
+q1elem=document.get elementbyid(cb1)
+f(q1elem.checked){
+alert("Da")}
+else{Alert("nicht")
+}
+}
+
+	function check() {
+	alert ("U ARE THE BEST IN DA WHOLE WRLD!@!!!!!!")
+	}
+</script>
+<script type="text/javascript" language="JavaScript">// <![CDATA[
+ var res="211"; 
+function check_me()
+{
+    var count=0;
+    with(document.test) {
+if (!Q1[0].checked&&!Q1[1].checked&&!Q1[2].checked&&!Q1[3].checked)  
+{count+=1};  
+if (!Q2[0].checked&&!Q2[1].checked&&!Q2[2].checked&&!Q2[3].checked)  
+{count+=1};  
+if (!Q3[0].checked&&!Q3[1].checked&&!Q3[2].checked&&!Q3[3].checked)  
+{count+=1};  
+if (count>0) alert("Вы выполнили не все задания. Проверьте себя!")    
+        else answer();
+    }
+} 
+ 
+function control(k, f1,f2,f3) {
+if (k==1&&f1.checked) return true;
+if (k==2&&f2.checked) return true;
+if (k==3&&f3.checked) return true;
+return false;
+}
+
+function answer() {
+answ="";
+     with(document)    {
+    answ+=control(res.charAt(0) ,test.Q1[0],test.Q1[1],test.Q1[2],test.Q1[3])?"1":"0";
+answ+=control(res.charAt(1) ,test.Q2[0],test.Q2[1],test.Q2[2],test.Q2[3])?"1":"0";
+answ+=control(res.charAt(2) ,test.Q3[0],test.Q3[1],test.Q3[2],test.Q3[3])?"1":"0";
+
+showResult();
+    }
+}
+ 
+function showResult()   {
+    var nok=0;
+    var i,s;
+ 
+
+    document.test.s1.
+    value="Количество правильных ответов "+nok+". Посмотрите на окно рядом с номером вопроса. Если ответ правильный, там (+). Если ответ ошибочен, там (-).";
+ 
+with(document.test)
+    {
+    if (answ.charAt(0)=="1") {T1.value=" + "} else {T1.value=" - "};
+   if (answ.charAt(1)=="1") {T2.value=" + "} else {T2.value=" - "};
+   if (answ.charAt(2)=="1") {T3.value=" + "} else {T3.value=" - "};
+     }
+}
+function showhide(obj){
+    if(obj == 'none') return 'inline';
+    else return 'none';
+}
+// ]]>
+</script>
+
+ <body link="white" vlink="white" alink="white" bgcolor="white">
+	<div id="container">
+    <p><img class="leftimg" src="G.png" width="70" height="50" alt="герб"></p>
+	<div id="header"><p><a href="index.html" style="color: black">Финляндия</a></p></div>
+	         	     <div id="wtf"><p></p></div>
+		<div id="sidebar">
+			<div id="button"><p><a href="sight.html">Достопримечательности</a></p></div>
+			<div id="button1"><p><a href="map.html">Карта</a></p></div>
+			<div id="button2" style="background-color:#A00200"><p><a href="interactive.html">Интерактив</a></p></div>
+	</div>
+   <div id="content">
+
+
+
+<form name="test"><ol>
+<li><INPUT type="text" size="1" value="" name="T1"/><b> В какой части Европы расположена Финляндия?</b><br/>
+<input type="radio" value="0" name="Q1"/> В северной<br />
+<input type="radio" value="1" name="Q1"/> В восточной<br />
+<input type="radio" value="2" name="Q1"/> В западной<br />
+<br/>
+<br/></li></br><li><INPUT type="text" size="1" value="" name="T2"/><b> Сколько государственных языков в Финляндии?</b><br/>
+<input type="radio" value="0" name="Q2"/> 1<br />
+<input type="radio" value="1" name="Q2"/> 1<br />
+<input type="radio" value="2" name="Q2"/> 4<br />
+<br/>
+<br/></li></br><li><INPUT type="text" size="1" value="" name="T3"/><b> Какой тип климата характерен для Финляндии?</b><br/>
+<input type="radio" value="0" name="Q3"/> Умеренный<br />
+<input type="radio" value="1" name="Q3"/> Арктический<br />
+<br/></li></ol>
+<br/>      
+<CENTER>
+<P><TEXTAREA name="s1" rows="4" cols="70" readonly> </TEXTAREA> </P>
+<INPUT onclick="check_me()" type="button" value="Показать результат"/>&nbsp;&nbsp;&nbsp;&nbsp; 
+<INPUT type="reset" value="Сбросить ответы"/> 
+</CENTER>        
+</form> 
+</p>
+
+   </div>
+   </div>
+   <div id="footer">&copy; Григорий Белахов
+   </div>
+  </div> 
+ </body>
+</html>

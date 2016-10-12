@@ -1,0 +1,159 @@
+ html,
+ body {
+    font: 10pt Arial, Helvetica, sans-serif;
+background: -moz-linear-gradient(top, #025a9a 10%, #025a9a 22%, #8bc4ed 100%);
+background: -webkit-linear-gradient(top, #025a9a 10%,#025a9a 22%,#8bc4ed 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #025a9a 10%,#025a9a 22%,#8bc4ed 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#025a9a', endColorstr='#8bc4ed',GradientType=0 ); /* IE6-9 */
+zoom: 94%;  height: 100%; width: 100%;
+ }
+   .wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+   }
+   h2 {
+    font-size: 1.1em;
+    color: #800040;
+    margin-top: 0;
+	height: 780px;
+	margin-right: 1000px;
+	margin-bottom: 1000px;
+   }	
+   #container {
+    width: 100%;
+    background: rgb(2,90,154);
+	margin-top: -4px;
+	margin-left: -8px;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#025a9a+1,eeeeee+100,e5e5e5+100 */
+background: #025a9a; /* Old browsers */
+background: -moz-linear-gradient(top,  #025a9a 1%, #eeeeee 100%, #e5e5e5 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #025a9a 1%,#eeeeee 100%,#e5e5e5 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #025a9a 1%,#eeeeee 100%,#e5e5e5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#025a9a', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+
+   }
+   #header {
+    font-size: 23px; /* Размер текста */
+	padding: 10px 50px 10px 50px;
+    text-align: left; /* Выравнивание по центру */
+    background: rgb(238,238,238); /* Цвет фона шапки */
+    color:"black"; /* Цвет текста */
+	height: 70px;
+	margin-right: 25px;
+	margin-top: -15px;
+	position: relative;
+	z-index: 2;
+	box-shadow:-10px 1px 0 #ccc, 0 1px 0 #c9c9c9,
+	-10px 2px 0 #bbb, 0 4px 0 #b9b9b9,
+	-10px 1px 0 #aaa,
+	-10px 3px 1px rgba(0,0,0,.1),
+	-10px 0 5px rgba(0,0,0,.1), 
+	-10px 1px 3px rgba(0,0,0,.3),
+	-10px 1px 5px rgba(0,0,0,.2),
+	-10px 2px 10px rgba(0,0,0,.25),
+	-10px 5px 10px rgba(0,0,0,.2),
+	-10px 20px 20px rgba(0,0,0,.15);
+	
+   }
+   #wtf {
+	   	height: 4000px;
+		  width: 25px;
+		  float:right;
+	   background: rgb(238,238,238);
+	   z-index: 15;
+	   	margin-top: -90px;
+   }
+   #header a {
+   text-decoration: none;
+   }
+      #footer {
+    background: rgb(238,238,238);rgb(238,238,238)
+    color: #fff;
+    padding: 015px;
+    clear: left;
+	margin-right: -16px;
+	margin-bottom: 0px;
+	    margin-left: -10px;
+		flex: 1 0 auto;
+
+	}
+   #sidebar {
+    margin-top: 10px; 
+    width: 110px;
+    padding: 0 10px;
+    float: left;
+   }
+   #content {
+    margin-left: 200px;
+    padding: 10px;
+    background: #fff;
+	margin-right: 25px;
+	height: 4000px;
+	position: relative;
+	z-index: 5;
+	flex: 1 0 auto;
+   }
+   #button {
+    padding: 1px;
+    height: 110px;
+    width: 300px;
+    margin-left: -10px;
+    margin-top: -6px;
+	transition: 0.4s;
+	}
+	#button1 {
+    padding: 1px;
+    height: 110px;
+    width: 300px;
+    margin-left: -10px;
+	transition: 0.4s;
+	}
+	#button2 {
+    padding: 1px;
+    height: 110px;
+    width: 300px;
+    margin-left: -10px;
+	transition: 0.4s;
+	}
+	
+	#button:hover {
+	background: #A00200;
+	position: relative;
+	z-index: 1;
+	}
+	#button1:hover {
+	background: #A00200;
+	}
+	#button2:hover {
+	background: #A00200;
+	}
+	#button a{
+    display: block;
+    height: 100%;
+	text-decoration: none;
+    }
+	#button1 a{
+    display: block;
+    height: 100%;
+	text-decoration: none;
+    }
+	#button2 a{
+    display: block;
+    height: 100%;
+	text-decoration: none;
+    }
+	.rightimg {
+    float:right; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 7px; /* Отступы вокруг картинки */
+	}
+	.rightimg1 {
+    float:right; /* Выравнивание по левому краю */
+    margin: 400px 7px 7px 500px; /* Отступы вокруг картинки */
+	}
+	.leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin: 17px 7px 7px 7px; /* Отступы вокруг картинки */
+	position: relative;
+	z-index: 3;
+	}
